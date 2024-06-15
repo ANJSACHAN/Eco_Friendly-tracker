@@ -3,10 +3,12 @@ import ErrorPage from './component/ErrorPage'
 import Home from './component/Home'
 import { ToastContainer } from 'react-toastify';
 import { Route, Routes } from 'react-router-dom';
+import Navbar from './component/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <AppRoutes/>
     </div>
   )
